@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'SECRET_KEY_DEFOULT')
 
 DEBUG = os.environ.get('DEBUG') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'the-oneproject.zapto.org']
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'the-oneproject.zapto.org')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
