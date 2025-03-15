@@ -1,4 +1,4 @@
-## Спринт 17: Проект kittygram_final
+## Проект kittygram_final
 
 ## **Описание проекта**
 
